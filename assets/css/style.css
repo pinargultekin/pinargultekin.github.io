@@ -1,0 +1,124 @@
+.pic{
+    /*width: 450px;
+    height: 450px;*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Pinar.JPG");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+}
+.pic-text{
+    text-align: center;
+    top: 50%;
+    left:50%;
+    margin: 24px;
+    padding: 24px;
+}
+
+body{
+    /*background-image: url(../images/hexellence_@2X.png);*/
+    background-color: #343b47;
+    font-family: beloved-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*color: #082175;*/
+    color:#FFC300  
+}
+.nav{
+    /*background-image: url(../images/hexellence_@2X.png);*/
+    background-color: #343b47;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 100%;
+    position: fixed;
+    z-index:99;
+    
+}
+.nav-link{
+    color:#FFC300; 
+    /*color: #082175;*/
+    font-size: 24px;
+    font-weight: bolder;
+}
+.logo{
+    font-weight: bolder;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size:40px;
+    font-weight: bold;
+}
+h3{
+    font-size:35px;
+}
+h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FE7300;
+}
+h5{
+    font-family: beloved-sans, sans-serif;
+}
+.dates{
+    font-family: beloved-sans, sans-serif;
+}
+p{
+    font-family:'Carrois Gothic', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+   
+}
+img{
+    width: 80%;
+    float: right;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    height:600px;
+    background-color: #343b47;
+}
+.card-img-top{
+    width: 300px;
+    height:300px;
+}
+.port-cont{
+    padding-top: 80px;
+}
+li a:hover, h3 a:hover {
+    /*color: palevioletred;*/
+    color: #FE7300;
+} 
+.main-cont{
+    margin:0 auto;
+    padding-top: 25%;
+}
+ul.no-bullet {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family:'Carrois Gothic', sans-serif;
+    font-size: 20px;
+    }
+  .card-title{
+    color: #FE7300;
+    font-weight: bold;
+  }
+  hr{
+      border-style: dotted;
+      border-color: #FBFF00
+  }
+  a{
+    color:#FFC300; 
+  }
+  
+/*
+<a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by rawpixel.com - www.freepik.com</a>
+*/

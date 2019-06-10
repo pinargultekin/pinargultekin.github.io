@@ -1,19 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link href="reset.css" rel= "stylesheet"> -->
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/eee0auz.css">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Home</title>
 </head>
+<header>
+    <div class="container">
+        <div class="row nav">
+            <div class="col-lg-6 logo">
+                <h1>Pinar Gultekin</h1>
+            </div>
+            <div class="col-lg-6">
+                <nav class="navbar navbar-expand-lg">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row main-cont">
+            <!-- <div class="col-lg-6">
+                <div id="about"></div>
+                <h2>About Me</h2>
+                <hr>
+                <br>
+                <p>
+                    Hi! I'm Pinar. I'm currently an IT student at Endicott College and meanwhile pursuing a Full Stack
+                    Web development program at University of Pennsylvania. </p>
+                <p>I'm passionate developer with management and engineering background. My skills are; JavaScript,
+                    jQuery, HTML5, CSS3, Ajax, SQL, MySQL, Firebase.</p>
+            </div>
+
+            <div class="col-lg-6">
+
+                <img id="pic" src="assets/images/Pinar.JPG">
+            </div> -->
+            <div id="about"></div>
+            <h2>About Me</h2>
+            <hr>
+            <br>
+            <div class="pic">
+                <div class="pic-text">
+                    <h1>Hi! I am Pinar</h1>
+                    <p class="pic-text">I'm currently an IT student at Endicott College and meanwhile pursuing a Full
+                        Stack
+                        Web development program at University of Pennsylvania. </p>
+                    <p class="pic-text"> I'm passionate developer with management and engineering background. My skills
+                        are; JavaScript,
+                        jQuery, HTML5, CSS3, Ajax, SQL, MySQL, Firebase.</p>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio"></div>
+        <div class="row port-cont">
+            <div class="col-lg-12">
+                <h2>Portfolio</h2>
+                <hr>
+                <br>
+            </div>
+            <br>
+            <div class="card">
+                <img class="card-img-top" src="assets/images/overview1.PNG" alt="train-schedule"
+                    onclick="location.href='https://pinargultekin.github.io/train-schedule/'" target="_blank">
+                <div class="card-body">
+                    <h5 class="card-title">Train Schedule</h5>
+                    <p class="card-text">Created a train schedule application that incorporates Firebase to host arrival
+                        and departure data.</p>
+                    <a href="https://pinargultekin.github.io/train-schedule/" target="_blank"
+                        class="btn btn-outline-light">Go to
+                        website</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="assets/images/mood1.PNG" alt="gifTastic"
+                    onclick="location.href='https://pinargultekin.github.io/GifTastic/'">
+                <div class="card-body">
+                    <h5 class="card-title">Mood Gif</h5>
+                    <p class="card-text">Used the GIPHY API to make a dynamic web page that populates with gifs of your
+                        mood.</p>
+                    <a href="https://pinargultekin.github.io/GifTastic/" target="_blank"
+                        class="btn btn-outline-light">Go to
+                        website</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="assets/images/trivia1.PNG" alt="trivia-game"
+                    onclick="location.href='https://pinargultekin.github.io/TriviaGame/'">
+                <div class="card-body">
+                    <h5 class="card-title">Trivia Game</h5>
+                    <p class="card-text">Created a Trivia game using JavaScript for the logic and jQuery to manipulate
+                        HTML.</p>
+                    <br>
+                    <a href="https://pinargultekin.github.io/TriviaGame/" target="_blank"
+                        class="btn btn-outline-light">Go to
+                        website</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/images/gem.PNG" alt="gem-collector"
+                    onclick="location.href='https://pinargultekin.github.io/unit-4-game/'">
+                <div class="card-body">
+                    <h5 class="card-title">Gem Collector</h5>
+                    <p class="card-text">Created an app that dynamically update HTML pages with the jQuery library.</p>
+                    <br>
+                    <br>
+                    <a href="https://pinargultekin.github.io/unit-4-game/" target="_blank"
+                        class="btn btn-outline-light">Go to
+                        website</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/images/psychic1.PNG" alt="Psychic-Game"
+                    onclick="location.href='https://pinargultekin.github.io/Psychic-Game/'">
+                <div class="card-body">
+                    <h5 class="card-title">Psychic Game</h5>
+                    <p class="card-text">Created an app runs in the browser, and features dynamically updated HTML and
+                        CSS powered by JavaScript code.</p>
+                    <a href="https://pinargultekin.github.io/Psychic-Game/" target="_blank"
+                        class="btn btn-outline-light">Go to
+                        website</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/images/home1.PNG" alt="handmade-pottery"
+                    onclick="location.href= 'https://pinargultekin.github.io/Web-development/Home.html'">
+                <div class="card-body">
+                    <h5 class="card-title">Hand Made Pottery</h5>
+                    <p class="card-text">Created an app using Bootstrap, HTML, CSS, and JavaScript.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="https://pinargultekin.github.io/Web-development/Home.html" target="_blank"
+                        class="btn btn-outline-light">Go to website</a>
+                </div>
+            </div>
+
+            <div id="resume"></div>
+            <div class="row resume-cont">
+                <div class="col-lg-12">
+                    <br>
+                    <br>
+                    <h2>Resume</h2>
+                    <hr>
+                    <br>
+                    <h3><a href="assets/E. Pinar Gultekin Resume - for Web developer.pdf" target="_blank">Pinar Gultekin</a></h3>
+                    <h5>Full Stack Web Developer</h5>
+                    <br>
+                </div>
+
+                <div class="col-lg-6">
+                    <div id="left">
+                        <h4>Summary</h4>
+                        <hr>
+                        <p>Passionate Full-Stack Web Developer with management and engineering background.
+                            Believed in life-long education and highly organized, detail oriented, quick learner,
+                            collaborative nature, and strong problem solver.</p>
+                        <br><br>
+                        <h4>Info</h4>
+                        <hr>
+                        <ul class="no-bullet">
+                            <li>
+                                <h5>Address:</h5> 107 Spring St. #1-2 Watertown MA 02472
+                            </li>
+                            <br>
+                            <li>
+                                <h5>Phone:</h5> +1 617 396 0846
+                            </li>
+                            <br>
+                            <li>
+                                <h5>Email:</h5> pinargultekin@yahoo.com
+                            </li>
+                            <br>
+                            <h5>Media Profile:</h5>
+                            <li><a href="https://www.linkedin.com/in/epinar/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://pinargultekin.github.io/" target="_blank">GitHub Portfolio</a></li>
+                            <li><a href="https://github.com/pinargultekin" target="_blank">GitHub Profile</a></li>
+                        </ul>
+                        <br><br>
+                        <h4>Skills & Knowledge</h4>
+                        <hr>
+                        <ul class="no-bullet">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>SQL</li>
+                            <li>MySQL</li>
+                            <li>Firebase</li>
+                            <li>Java</li>
+                            <li>Node.js</li>
+                            <li>Git</li>
+                            <li>Agile Methodology</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div id="right">
+                        <h4>Education</h4>
+                        <hr>
+                        <ul class="no-bullet">
+                            <li class="dates">April - October 2019</li>
+                            <li>Bootcamp Program in Full Stack Web Development</li>
+                            <li>University of Pennsylvania, Philadelphia, PA</li>
+                            <br>
+                            <li class="dates">January 2018 - October 2019</li>
+                            <li>Master of Science in Information Technology</li>
+                            <li>Endicott College, Beverly, MA GPA 4.00/4.00</li>
+                            <br>
+                            <li class="dates">Nov 2014 – Jan 2018</li>
+                            <li>Language School, Boston, MA</li>
+                            <br>
+                            <li class="dates">September 2010 - June 2013</li>
+                            <li>Bachelor of Science in Food Engineering</li>
+                            <li>Uludag University, Bursa, Turkey GPA 3.50/4.00</li>
+                            <br>
+                            <li class="dates">September 2007 - June 2009</li>
+                            <li>Associate Degree in Food Technology</li>
+                            <li>Dumlupinar University, Kutahya, Turkey</li>
+                        </ul>
+                        <br><br>
+                        <h4>Relative Projects</h4>
+                        <hr>
+                        <ul class="no-bullet">
+                            <li class="dates">Train Schedule Website</li>
+                            <li>Created a train schedule application that incorporates Firebase to host arrival and
+                                departure data.</li>
+                            <li>Used Tools/Environments: HTML, CSS, JavaScript, jQuery, Firebase</li>
+                            <br>
+                            <li class="dates">Mood Gif Website</li>
+                            <li>Used the GIPHY API to make a dynamic web page that populates with gifs of your mood.
+                            </li>
+                            <li>Used Tools/Environments: HTML, CSS, JavaScript, jQuery, Giphy API</li>
+                            <br>
+                            <li class="dates">Trivia Game</li>
+                            <li>Created a Trivia game using JavaScript for the logic and jQuery to manipulate HTML.</li>
+                            <li>Used Tools/Environments: HTML, CSS, JavaScript, jQuery</li>
+                            <br>
+                            <li class="dates">Gem Collector Game</li>
+                            <li>Created an app that dynamically update HTML pages with the jQuery library.</li>
+                            <li>Used Tools/Environments: HTML, CSS, JavaScript, jQuery</li>
+                        </ul>
+                        <br><br>
+                        <h4>Experience</h4>
+                        <hr>
+                        <ul class="no-bullet">
+                            <li class="dates">OSHA Specialist - BEDAS, Istanbul, Turkey</li>
+                            <li class="dates"> Apr – Oct 2014</li>
+                            <li>Gave OSHA and HACCP software training to end-users.
+                                Implemented and managed HACCP (Hazard Analysis Critical Control Points) & OSHA (The
+                                Occupational Safety and Health Administration) systems.
+                            </li>
+                            <br>
+                            <li class="dates">Food Scientist - BEDAS, Istanbul, Turkey </li>
+                            <li class="dates">Aug ‘13 – Oct 2014</li>
+                            <li>Developed and communicated HACCP related procedures and HACCP handbooks; Implemented
+                                those procedures and monitored related employees to make sure they complied. Inspected
+                                and monitored subcontractor companies and their employees.</li>
+                            <br>
+                            <li class="dates">Researcher - Uludag University, Bursa, Turkey</li>
+                            <li class="dates"> Nov ‘10–Apr 2013</li>
+                            <li>Assisted professors with projects, research, and experiments. Analyzed information and
+                                sent related reports and outcomes to professors.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+</header>
+
 <body>
-    <h1>Heading</h1>
-    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-<ul>
-    <li>Blah</li>
-    <li>Blahh</li>
-    <li>Blahhh</li>
-</ul>
+
 </body>
+
 </html>

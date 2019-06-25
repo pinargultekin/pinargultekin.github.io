@@ -1,14 +1,13 @@
 .pic{
-    /*width: 450px;
-    height: 450px;*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Pinar.JPG");
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-    
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Pinar.JPG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
 .pic-text{
     text-align: center;
     top: 50%;
@@ -26,58 +25,68 @@ body{
     /*color: #082175;*/
     color:#FFC300  
 }
+
 .nav{
     /*background-image: url(../images/hexellence_@2X.png);*/
-    background-color: #343b47;
+    background-color: #272c35;
     margin: 0 auto;
     padding-top: 30px;
     width: 100%;
     position: fixed;
-    z-index:99;
-    
+    z-index: 99;
 }
+
 .nav-link{
     color:#FFC300; 
     /*color: #082175;*/
     font-size: 24px;
     font-weight: bolder;
 }
+
 .logo{
     font-weight: bolder;
 }
+
 h1{
     font-size: 50px;
 }
+
 h2{
     font-size:40px;
     font-weight: bold;
 }
+
 h3{
     font-size:35px;
 }
+
 h4{
     font-size: 25px;
     font-weight: bold;
     color: #FE7300;
 }
+
 h5{
     font-family: beloved-sans, sans-serif;
 }
+
 .dates{
     font-family: beloved-sans, sans-serif;
 }
+
 p{
     font-family:'Carrois Gothic', sans-serif;
     font-size: 20px;
     text-align: justify;
-   
 }
+
 img{
     width: 80%;
     float: right;
     margin: 0 auto;
     padding-top: 80px;
 }
+
 .card{
     margin: 10px;
     padding: 10px;
@@ -85,49 +94,58 @@ img{
     height:600px;
     background-color: #343b47;
 }
+
 .card-img-top{
     width: 300px;
     height:300px;
 }
-.port-cont{
-    padding-top: 80px;
-}
+
 li a:hover, h3 a:hover {
-    /*color: palevioletred;*/
     color: #FE7300;
 } 
-.main-cont{
+
+.main-cont, .resume-cont, .port-cont, footer{
     margin:0 auto;
-    padding-top: 25%;
+    padding-top: 15%;
+    height: 100%;
 }
+
 ul.no-bullet {
     list-style-type: none;
     padding: 0;
     margin: 0;
     font-family:'Carrois Gothic', sans-serif;
     font-size: 20px;
-    }
-  .card-title{
+}
+
+.card-title{
     color: #FE7300;
     font-weight: bold;
-  }
-  hr{
-      border-style: dotted;
-      border-color: #FBFF00
-  }
-  a{
-    color:#FFC300; 
-  }
-  .footer{
-    position: sticky;
-    bottom:0;
-    width:100%;
-    padding:20px;
-    line-height: 25px;
-    margin:0 auto;
-    text-align: center;
-    font-size: 12px;
 }
+
+hr{
+    border-style: dotted;
+    border-color: #FBFF00
+}
+  
+a{
+    color:#FFC300; 
+}
+
+.footer{
+    position: sticky;
+    bottom: 10%;
+    width:100%;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px; 
+}
+
+.links{
+    bottom: 0.5rem;
+    position: absolute;
+}
+
 /*
 <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by rawpixel.com - www.freepik.com</a>
 */

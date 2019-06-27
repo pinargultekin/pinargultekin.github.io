@@ -10,13 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/reset.css" type="text/css">    
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="shortcut icon" href="Assets/images/favicon-32x32.png" type="image/x-icon">
     <title>Home</title>
 </head>
 <body>
 <header>
-    <div class="row nav">
+    
+    <div class="row nav wrapper">
         <div class="col-lg-6 logo">
             <h1>Pinar Gultekin</h1>
         </div>
@@ -37,7 +39,7 @@
         </div>
     </div>
 </header>
-<div class="container">
+<div class="container main-container">
     <div id="about"></div>
     <div class="row main-cont">
         <div class="col-lg-12">
@@ -52,8 +54,7 @@
                         Stack
                         Web development program at University of Pennsylvania. </p>
                     <p class="pic-text"> I'm passionate developer with management and engineering background. My skills
-                        are; JavaScript,
-                        jQuery, HTML5, CSS3, Ajax, SQL, MySQL, Firebase.</p>
+                        are; JavaScript, jQuery, HTML5, CSS3, Ajax, SQL, MySQL, APIs, Firebase, Node.js.</p>
                 </div>
             </div>
         </div>
@@ -67,6 +68,23 @@
         <br>
     </div>
     <br>
+
+    <div class="card">
+        <img class="card-img-top" src="assets/images/butler1.PNG" alt="butler"
+            onclick="location.href='https://ajweber102.github.io/Butler/'" target="_blank">
+        <div class="card-body">
+            <h5 class="card-title">Butler</h5>
+            <p class="card-text">Created an application that integrating data received from two server-side API requests.</p>
+            <div class="links">
+                <a href="https://ajweber102.github.io/Butler/" target="_blank"
+                    class="btn btn-outline-light">Go to
+                    website</a>
+                <a href="https://github.com/ajweber102/Butler" target="_blank"
+                    class="btn btn-outline-light">Go to code</a>
+            </div>
+        </div>
+    </div>
+
     <div class="card">
         <img class="card-img-top" src="assets/images/overview1.PNG" alt="train-schedule"
             onclick="location.href='https://pinargultekin.github.io/train-schedule/'" target="_blank">
@@ -210,10 +228,10 @@
             <ul class="no-bullet">
                 <br>
                 <li>HTML</li>
-
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>jQuery</li>
+                <li>API Integration</li>
                 <li>SQL</li>
                 <li>MySQL</li>
                 <li>Firebase</li>
@@ -296,7 +314,9 @@
         </div>
     </div>
 </div>
-
+<br>
+<br>
+<br>
 <footer>
     <div class="row footer">
         <div class="col-lg-12">

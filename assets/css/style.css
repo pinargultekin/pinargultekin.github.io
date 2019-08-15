@@ -98,12 +98,17 @@ img{
     
 }
 
+#contact-info a{
+    margin-top: 14px;
+    padding-right: 2rem;
+}
+
 .card-img-top{
     width: 300px;
     height:300px;
 }
 
-li a:hover, h3 a:hover {
+li a:hover, h3 a:hover, p a:hover {
     color: #FE7300;
 } 
 
@@ -112,6 +117,9 @@ padding-top: 10rem;
 }
 .resume-cont{
     padding-top: 2.5rem;
+}
+.contact-cont{
+   padding-top: 5rem 
 }
 .main-container{
     padding-top: 10rem;

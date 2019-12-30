@@ -11,11 +11,14 @@
 }
 
 .pic-text{
-    text-align: center;
+    /* text-align: justify; */
     top: 50%;
     left:50%;
     margin: 24px;
     padding: 24px;
+    font-size: 24px; 
+    text-align:justify; 
+    line-height: 2.5rem;
 }
 
 body{
@@ -80,6 +83,12 @@ p{
     font-family:'Carrois Gothic', sans-serif;
     font-size: 20px;
     text-align: justify;
+}
+#midhead{
+    text-align: justify;
+}
+#tophead{
+    text-align: center;
 }
 
 img{
@@ -165,9 +174,27 @@ a{
 .links{
     bottom: 0.5rem;
     position: absolute;
+    width:100%
 }
-
-
+.light-on{
+    font-size:24px;
+    border:none;
+    background:transparent;
+    color: rgb(173, 173, 173);
+}
+.light-on:hover{
+    color:yellow;
+}
+.light-off{
+    font-size:24px;
+    border:none;
+    background:transparent;
+    color:yellow;
+    display:none;
+}
+.light-off:hover{
+    color:rgb(173, 173, 173);
+}
 
 @media screen and (max-width: 980px) {
     .container {
@@ -188,7 +215,7 @@ a{
         .main-container{
             padding-top: 15rem;
         }
-    
+   
 } 
 
 @media screen and (max-width: 768px) {
@@ -221,7 +248,7 @@ img {
 }
 .pic {
     float: none;
-    width: 100%;
+    width: 700px;
     height: 600px;
     margin: 0;
     margin-bottom: 30px;
@@ -293,10 +320,15 @@ h4{
     }
     .pic {
         float: none;
-        width: 500px;
+        width: 570px;
         height: 500px;
         margin: 0;
         margin-bottom: 30px;
+    }
+    .pic-text{
+        width: 450px;
+        line-height: 1.5rem;
+        padding:24px 0px;
     }
     .card{
         height: 575px;
@@ -314,6 +346,9 @@ h4{
     h1{
         font-size: 35px;
     }
+    .aboutMe{
+        margin-top:-3rem;
+    }
     h2{
         font-size: 30px
     }
@@ -326,12 +361,12 @@ h4{
   
 } 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 360px) 
+  and (max-device-width: 639px) 
   and (-webkit-min-device-pixel-ratio: 2) 
 /* @media screen and (max-width: 450px)*/ {
     .container {
-        max-width: 325px;
+        max-width: 346px;
         margin: 20px;
         margin-top: 0;
     }
@@ -342,6 +377,9 @@ h4{
     }
     .pic-text{
         width: 200px;
+        line-height: 1.5rem;
+        padding:24px 0px;
+        margin-left:2rem;
     }
     li, p{
         font-size: 15px;
@@ -361,7 +399,7 @@ h4{
     }
     .pic {
         float: none;
-        width: 325px;
+        width: 346px;
         height: 650px;
         margin: 0;
         margin-bottom: 30px;
@@ -383,6 +421,14 @@ h4{
     
     h1{
         font-size: 40px;
+        line-height: 2rem;
+        margin-left:2rem;
+    }
+    #top-title1{
+        margin-left:3rem;
+    }
+    .aboutMe{
+        margin-top:1rem;
     }
     h2{
         font-size: 30px

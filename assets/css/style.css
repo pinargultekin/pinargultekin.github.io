@@ -473,6 +473,9 @@ h4{
 .light-off{
     padding-left:1rem;
 }
+.nav{
+    position: absolute;
+}
 }
  
 

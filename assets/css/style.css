@@ -442,7 +442,12 @@ h4{
     .container {
         margin: 0;
     }
-
+.port-cont{
+    margin-top:7rem;
+}
+#cv_link{
+    width:7%;
+}
 }
  
 

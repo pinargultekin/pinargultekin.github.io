@@ -195,7 +195,10 @@ a{
 .light-off:hover{
     color:rgb(173, 173, 173);
 }
-
+#cv_link{
+    width:2%;
+    /* padding:0; */
+}
 @media screen and (max-width: 980px) {
     .container {
         max-width: 850px;
@@ -225,7 +228,22 @@ a{
 margin-top:2rem;
    }
 } 
-
+@media screen and (max-width: 800px) {
+    #cv_link{
+        width:2.5%;
+        margin-top:-4.3rem;
+        margin-right:2rem;  
+      }
+      div.col-lg-12{
+          padding-right:3.5rem;
+      }
+      #left, #right{
+          padding-right: 3.5rem;
+      }
+    .contact-cont{
+        padding-right:3.5rem;
+    }
+    }
 @media screen and (max-width: 768px) {
     .container {
         max-width: 800px;
@@ -289,6 +307,10 @@ h4{
  }
 .aboutMe{
     margin-top:-5rem;
+}
+#cv_link{
+  margin-top:-4.3rem;
+  margin-right:2rem;  
 }
 }
 
@@ -371,6 +393,17 @@ h4{
      }
   
 } 
+@media screen and (max-width: 450px){
+    .port-cont{
+        margin-top:2rem;
+    }
+    .pic{
+    height:80%!important;
+    }
+    .nav{
+        position: absolute;
+    }
+}
 @media only screen 
   and (min-device-width: 360px) 
   and (max-device-width: 639px) 
@@ -457,7 +490,9 @@ h4{
         margin: 0;
     }
 #cv_link{
-    width:7%;
+    width:5%;
+    margin: -5.6rem;
+    /* display: none; */
 }
 .logo{
     margin-top:0.5rem;

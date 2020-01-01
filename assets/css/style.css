@@ -106,6 +106,12 @@ img{
     background-color: #343b47;
     
 }
+.card-text{
+    line-height: 1.5rem;
+}
+#cv-sum{
+    line-height: 1.5rem;;
+}
 
 #contact-info a{
     margin-top: 14px;
@@ -133,6 +139,13 @@ padding-top: 10rem;
 .main-container{
     padding-top: 10rem;
 }
+#contact-info{
+    font-size: 20px;
+    line-height: 2rem;
+}
+.email{
+    font-size: 20px;
+}
 
 /* .main-cont, .resume-cont, .port-cont, footer{
     margin:0 auto;
@@ -146,6 +159,7 @@ ul.no-bullet {
     margin: 0;
     font-family:'Carrois Gothic', sans-serif;
     font-size: 20px;
+    line-height: 1.7rem;;
 }
 
 .card-title{
@@ -198,6 +212,9 @@ a{
 #cv_link{
     width:2%;
     /* padding:0; */
+}
+#app, #tool, #def{
+    text-align: justify;
 }
 @media screen and (max-width: 980px) {
     .container {
@@ -511,6 +528,14 @@ h4{
 .nav{
     position: absolute;
 }
+#contact-info{
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.email{
+    font-size: 15px;
+}
+
 }
  
 

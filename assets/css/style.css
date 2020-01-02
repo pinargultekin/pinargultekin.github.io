@@ -211,6 +211,9 @@ a{
 }
 #cv_link{
     width:2%;
+    margin-top:-4.5rem;
+    margin-right:2rem;  
+
     /* padding:0; */
 }
 #app, #tool, #def{

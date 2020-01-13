@@ -12,6 +12,7 @@ $("h1").css({"color": "#272c35"});
 $("h4").css({"color": "#30718f"});
 $("h5").css({"color": "#30718f"});
 $("a").css({"color": "#272c35"});
+$(".overlay").css({"background-color":"rgba(255, 255, 255, 0.9)"});
 // $(".nav-link").attr("onmouseover", "mouseover()")
 // $(".nav-link").attr("onmouseout", "mouseout()")
 $(".card").css({"background": "#fff"});
@@ -39,7 +40,8 @@ $("li").css({"color": "#FFC300"});
 $("h1").css({"color": "#FFC300"});
 $("h4").css({"color": "#FE7300"});
 $("h5").css({"color": "#FE7300"});
-$("a").css({"color": "#FFC300"})
+$("a").css({"color": "#FFC300"});
+$(".overlay").css({"background-color":"rgba(52,59,71, 0.9)"});
 $(".card").css({"background": "#343b47"});
 $(".btn-outline-light").css({"color": "#f8f9fa", "border-color":"#f8f9fa","background":"transparent"});
 $("hr").css({"border-color":"#FBFF00", "border-style": "dotted"});
